@@ -201,7 +201,7 @@ jobs:
 
   - task: Bash@3
     inputs:
-      filePath: .azure-ci/build_manylinux2010.sh
+      filePath: .azure-ci/manylinux2010/run_ci.sh
       failOnStderr: false
     env:
       python_ver: $(python_ver)
